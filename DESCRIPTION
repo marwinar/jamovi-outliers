@@ -1,0 +1,11 @@
+Package: outliers
+Type: Package
+Title: Outlier Detection
+Version: 0.0.1
+Author: Marielle Winarto
+Maintainer: Marielle Winarto <mwinarto@gmail.com>
+Description: Univariate Outlier Detection via z-scores and boxplots (IQR)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: jmvcore (>= 0.8.5), R6, ggplot2, dplyr

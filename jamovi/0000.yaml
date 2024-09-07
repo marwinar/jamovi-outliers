@@ -1,0 +1,22 @@
+---
+title: Outlier Detection
+name: outliers
+version: 0.0.1
+jms: '1.0'
+authors:
+  - Marielle Winarto
+maintainer: Marielle Winarto <mwinarto@gmail.com>
+date: '2023-10-16'
+type: R
+description: Outlier detection via z-scores and boxplots (IQR).
+analyses:
+  - title: outliers
+    name: outliers
+    ns: outliers
+    menuGroup: Exploration
+    menuTitle: outliers
+    menuSubgroup: Outliers
+usesNative: true
+minApp: 1.0.8
+
+...
